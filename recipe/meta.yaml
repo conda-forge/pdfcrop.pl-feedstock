@@ -1,5 +1,5 @@
 {% set name = "pdfcrop.pl" %}
-{% set version = "1.40" %}
+{% set version = "1.41" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ho-tex/pdfcrop/archive/v{{ version }}.tar.gz
-  sha256: 592e8e0ba8e462e7364fd43b4d33116b92573658626eb9391b73c46124f64029
+  sha256: a61e3610f1386413127613c70cd6c1d28adf34e36cfa50082f0dcffb2059b823
 
 build:
   number: 0
